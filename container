@@ -1,0 +1,11 @@
+// Un nuevo Set con los nombres de tu familia
+const nombresFamilia = new Set(['Juan', 'María', 'Pedro']);
+
+// Modificar el Set original añadiendo tu nombre (duplicado)
+nombresFamilia.add('Juan');
+
+// Modificar el Set original añadiendo el nombre "Javascript"
+nombresFamilia.add('Javascript');
+
+// Imprimir el contenido del Set original
+console.log(nombresFamilia);
